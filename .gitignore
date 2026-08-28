@@ -1,0 +1,31 @@
+# Private clinical data and patient-level predictions
+data/*
+!data/README.md
+outputs/
+results/
+predictions/
+
+# Study-specific local configuration
+configs/*.json
+
+# Model and preprocessing artifacts
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+
+# Spreadsheet exports are patient-level by default.
+*.xls
+*.xlsx
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.DS_Store
